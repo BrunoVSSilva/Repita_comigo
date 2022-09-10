@@ -3,11 +3,9 @@
 /* Resposta 1
 var v1 = parseInt(prompt("insira o primeiro valor"));
 var v2 = parseInt(prompt("insira o segundo valor, obs: o segundo valor não pode ser igual ou menor que zero"));
-
 while(v2 <= 0){
     
     var v2 = parseInt(prompt("insira o segundo valor, obs: o segundo valor não pode ser igual ou menor que zero"));
-
 }
 var div = v1 / v2 
 document.write("O valor da divisão é: " + div);
@@ -17,7 +15,6 @@ document.write("O valor da divisão é: " + div);
 
 /* Resposta 2
 var cont = 30;
-
 while(cont > 0){
     var texto = "Restam " + cont + " segundos." + "<br>";
     document.write(texto);
@@ -32,7 +29,6 @@ Exemplo: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
 /* Resposta 3
 var cont = 10;
-
 while(cont > 0){
     var texto = cont + "<br>";
     document.write(texto);
@@ -45,7 +41,6 @@ while(cont > 0){
 /* resposta 4
 var num = 15
 var acum = 0
-
 while(num <= 100){
     acum += num
     num++ 
@@ -60,15 +55,11 @@ document.write(média);
 var num1 = parseInt(prompt("Insira o primeiro valor"));
 var num2 = parseInt(prompt("Insira o segundo valor"));
 var fator = num2 - num1
-
 var acum = 0;
-
 while(num1 < num2){
     acum += num1
     num1++
 }
-
-
 document.write(acum / fator);
 */
 
@@ -86,7 +77,6 @@ if(med < 9.5){
 }else{
     alert("O aluno foi aprovado!")
 }
-
 var sn = prompt("Calcular a média de outro aluno Sim/Não ?")
 var s = "s";
 var n = "n";
@@ -122,58 +112,42 @@ var num3 = parseInt(prompt("Insira a terceira nota"));
 var num4 = parseInt(prompt("Insira a quarta nota"));
 var num5 = parseInt(prompt("Insira a quinta nota"));
 var num6 = parseInt(prompt("Insira a sexta nota"));
-
-
-
-
-
 while(num1 < 0 ){
     var num1 = parseInt(prompt("Por favor, insira o primeiro número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num1 > 10){
     var num1 = parseInt(prompt("Por favor, insira o primeiro número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
-
 while(num2 < 0){
     var num2 = parseInt(prompt("Por favor, insira o segundo número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num2 > 10){
     var num2 = parseInt(prompt("Por favor, insira o segundo número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
-
 while(num3 < 0){
     var num3 = parseInt(prompt("Por favor, insira o terceiro número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num3 > 10){
     var num3 = parseInt(prompt("Por favor, insira o terceiro número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
-
 while(num4 < 0){
     var num4 = parseInt(prompt("Por favor, insira o quarto número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num4 > 10){
     var num4 = parseInt(prompt("Por favor, insira o quarto número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
-
 while(num5 < 0){
     var num5 = parseInt(prompt("Por favor, insira o quinto número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num5 > 10){
     var num5 = parseInt(prompt("Por favor, insira o quinto número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
-
 while(num6 < 0){
     var num6 = parseInt(prompt("Por favor, insira o sexta número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
 while(num6 > 10){
     var num6 = parseInt(prompt("Por favor, insira o sexta número novamente, o número inserido deve ser maior que 0 e menor que 10."));
 }
-
 var med = (num1 + num2 + num3 + num4 + num5 + num6) / 6
 alert(num1 + ", " + num2 + ", " + num3 + ", " + num4 + ", " + num5 + ", " + num6 + " A média desse aluno é: " + med);
 */
@@ -194,8 +168,7 @@ while(v1 <= N){
 /* Escreva um algoritmo para imprimir os 10 primeiros números inteiros maiores que 100. */
 /*
 var vi = 100
-var vf = 109
-
+var vf = 110
 while(vi <= vf){
 vi++
 document.write(vi + "<br>")
@@ -207,14 +180,11 @@ document.write(vi + "<br>")
 /* Resposta 10
 var n = parseInt(prompt("Insira o valor"));
 var ini= 0
-
 while(ini < n){
     ini++
-
     var final = 0
     while(final < 10){
         final++
-
         var multi = ini*final
         document.write(ini + " . " + final + " " + " = " + multi + "<br>")
     }
@@ -226,7 +196,6 @@ while(ini < n){
 /*
 var d = 0;
 var f = 0;
-
 var inicial = 0;
 while(inicial < 10){
     var text = parseInt(prompt("Insira o valor"));
@@ -239,4 +208,3 @@ while(inicial < 10){
     inicial++
 }
 alert(" De todos os valores inseridos " + d + " estão dentro de 24 a 42. " + f + " estão fora. ");
-*/
